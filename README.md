@@ -66,6 +66,43 @@ MODEL GRAPH:
 
 Program
 
+clc;
+clear;
+close;
+
+// Modulation index
+B  = 5.6;
+
+// Parameters
+Ac = 36.2;        // Carrier amplitude
+Am = 18.1;        // Message amplitude
+Fc = 6460;        // Carrier frequency (Hz)
+Fm = 646;         // Message frequency (Hz)
+Fs = 56700;       // Sampling frequency (Hz)
+
+// Time vector
+T  = 0:1/Fs:2/Fm;
+
+// Message signal
+em = Am * cos(2 * %pi * Fm * T);
+subplot(3,1,1);
+plot(T, em);
+xtitle("Message Signal");
+xgrid();
+
+// Carrier signal
+ec = Ac * cos(2 * %pi * Fc * T);
+subplot(3,1,2);
+plot(T, ec);
+xtitle("Carrier Signal");
+xgrid();
+
+// FM signal (proper FM equation)
+efm = Ac * cos(2 * %pi * Fc * T + B * sin(2 * %pi * Fm * T));
+subplot(3,1,3);
+plot(T, efm);
+xtitle("Frequency Modulated Signal");
+xgrid();
 
 Output Waveform
 
