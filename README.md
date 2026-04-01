@@ -106,6 +106,7 @@ xgrid();
 
 Output Waveform
 
+<img width="1917" height="1194" alt="Screenshot 2026-03-22 151310" src="https://github.com/user-attachments/assets/846a9015-831c-4cba-94bb-6fd9b7d44709" />
 
 
 Tabulation
