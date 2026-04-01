@@ -111,17 +111,7 @@ Output Waveform
 
 Tabulation
 
-
-
-Calculation
-
-
-
-Frequency Deviation Practical = 
-
-Modulation Index Practical	= 
-
-Modulation Index Theoretical	=
+<img width="1158" height="735" alt="image" src="https://github.com/user-attachments/assets/f005daa6-2070-41b1-bfb4-51e07f04c660" />
 
 
 
