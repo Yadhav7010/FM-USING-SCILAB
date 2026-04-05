@@ -127,3 +127,5 @@ xgrid();
 
 ## RESULT:
 Thus, the frequency modulation and demodulation is successfully done and the output is experimentally verified.
+<img width="1079" height="653" alt="image" src="https://github.com/user-attachments/assets/90470bb2-599f-4998-8f6d-f5cb14850073" />
+
